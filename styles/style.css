@@ -20,7 +20,7 @@
   width: 168px;
   height: 52px;
   padding: 14px 20px 14px 20px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 1rem;
   line-height: 19px;
   text-align: left;
@@ -29,4 +29,25 @@
     rgb(255, 88, 155) -0.006%,
     rgb(255, 19, 111) 99.994%
   );
+}
+
+/* -------categories------ */
+.cat1, .cat2, .cat3{
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.cat1{
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+}
+
+.cat2{
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+.cat3{
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+.categories h1{
+    color: rgb(255, 255, 255);
+font-family: "Poppins";
+font-size: 2.2rem;
 }
