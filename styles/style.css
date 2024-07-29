@@ -1,5 +1,5 @@
-.container{
-    margin-bottom: 100px;
+.container {
+  margin-bottom: 100px;
 }
 .orange-bg {
   background-color: #fceae8;
@@ -32,22 +32,69 @@
 }
 
 /* -------categories------ */
-.cat1, .cat2, .cat3{
-    border-radius: 10px;
-    padding: 10px 30px;
+.cat1,
+.cat2,
+.cat3 {
+  border-radius: 10px;
+  padding: 10px 30px;
 }
-.cat1{
-    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+.cat1 {
+  background: linear-gradient(
+    151.85deg,
+    rgb(255, 156, 53) 14.537%,
+    rgb(255, 208, 25) 84.486%
+  );
 }
 
-.cat2{
-    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+.cat2 {
+  background: linear-gradient(
+    180deg,
+    rgb(255, 88, 155) -0.006%,
+    rgb(255, 19, 111) 99.994%
+  );
 }
-.cat3{
-    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+.cat3 {
+  background: linear-gradient(
+    170.38deg,
+    rgb(66, 137, 255) 15.416%,
+    rgb(63, 7, 248) 74.29%
+  );
 }
-.categories h1{
-    color: rgb(255, 255, 255);
-font-family: "Poppins";
-font-size: 2.2rem;
+.categories h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Poppins";
+  font-size: 2.2rem;
+}
+.center {
+  margin: 10px;
+}
+
+/* -----shoe--------- */
+.common {
+  position: relative;
+}
+.see-all {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#subscribe {
+  max-width: 1440px;
+  min-height: 500px;
+  background-color: rgb(255, 242, 241);
+  padding: 30px;
+}
+.input-info {
+  width: 683px;
+  height: 73px;
+ 
+}
+input[type="text"] {
+  width: 100%;
+}
+input[type="button"]{
+  width: 100%;
 }
