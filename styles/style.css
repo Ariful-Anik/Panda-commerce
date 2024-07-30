@@ -1,4 +1,4 @@
-.container {
+.container-fluid {
   margin-bottom: 100px;
 }
 .orange-bg {
@@ -12,7 +12,13 @@
 .price {
   color: rgb(255, 19, 111);
 }
+/* --------carousel item------- */
 
+.carousel-item h1{
+  font-size: 4vw;
+  /* font-size: 5vh; */
+  /* width: 100%; */
+}
 .buy-now-button {
   color: rgb(255, 255, 255);
   border-radius: 6px;
@@ -82,7 +88,7 @@
 }
 
 #subscribe {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   min-height: 500px;
   background-color: rgb(255, 242, 241);
   padding: 30px;
@@ -93,7 +99,10 @@
  
 }
 input[type="text"] {
-  width: 100%;
+  width: 120%;
+  /* height: 70%; */
+  border-radius: 10px;
+  border: 1px solid;
 }
 input[type="button"]{
   width: 100%;

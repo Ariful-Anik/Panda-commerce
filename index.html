@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -52,7 +52,7 @@
       </nav>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
       <div id="carouselExampleIndicators" class="carousel slide orange-bg">
         <div class="carousel-indicators">
           <button
@@ -150,7 +150,7 @@
       </div>
     </div>
 
-    <div class="container categories">
+    <div class="container-fluid categories">
       <div class="row">
         <div class="col-md-4">
           <div class="cat1 d-flex justify-content-between align-items-center">
@@ -174,7 +174,7 @@
     </div>
     <!-- ---------shoe---------- -->
 
-    <div class="container shoes common" id="shoes">
+    <div class="container-fluid shoes common" id="shoes">
       <h3>Shoes</h3>
 
       <div class="see-all"><p class="text-warning">See All</p></div>
@@ -263,7 +263,7 @@
 
     <!-- ------------backpack---------- -->
 
-    <div class="container shoes common" id="shoes">
+    <div class="container-fluid shoes common" id="shoes">
       <h1>Backpack</h1>
 
       <div class="see-all"><p class="text-warning">See All</p></div>
@@ -352,25 +352,39 @@
 
     <!-- --------footer-------- -->
     <div
-      class="container d-flex align-items-center justify-content-center"
+      class="container-fluid d-flex align-items-center justify-content-center"
       id="subscribe"
     >
       <div>
-        <h1>LET'S STAY IN TOUCH</h1>
+        <div class="div-text">
+          <h1>LET'S STAY IN TOUCH</h1>
         <p>Get updates on sales specials and more</p>
-        <div class="input-info ">
+        </div>
+        
+        <div class="input-info">
           <div class="row">
-            <div class="col-md-7">
-              <input type="text" name="" id="" />
-            </div>
-            <div class="col-md-5">
+            <div
+              class="col-md-7 d-flex align-items-center justify-content-between "
+            >
+              <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-md-7">
+                  <input type="text" name="" id="" />
+                </div>
+                <div class="col-md-5">
+                  <input
+                    type="button"
+                    class="btn btn-primary bg-black center"
+                    value="Send"
+                  />
+                </div>
+              </div>
+              <!-- <input type="text" name="" id="" />
               <input
               type="button"
               class="btn btn-primary bg-black center"
               value="Send"
-            />
+            /> -->
             </div>
-           
           </div>
         </div>
       </div>
